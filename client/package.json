@@ -7,7 +7,7 @@
     "email": "CodedThemes@gmail.com",
     "url": "https://codedthemes.com/"
   },
-  "homepage": "https://berrydashboard.io/free",
+  "homepage": " http://91.108.105.113:3000/",
   "scripts": {
     "start": "env-cmd -f .env vite",
     "build": "vite build",
