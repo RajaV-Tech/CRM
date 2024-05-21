@@ -52,6 +52,11 @@ db.getConnection((err, connection) => {
   }
 });
 
+app.get('/', (req, res) => {
+  res.send('Hello, World!');
+});
+
+
 const departmentController = require('./controllers/departmentController')(db);
 app.use('/department',departmentController);
 
